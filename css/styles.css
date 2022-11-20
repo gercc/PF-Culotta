@@ -1,0 +1,954 @@
+
+/*PAGINA A EVALUAR: index */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.headerIndex {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/inicio-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bannerHeader {
+    padding-top: 150px;
+}
+
+.hrHeader {
+    align-items: center;
+    width: 5%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2Header {
+    margin-top: 30px;
+}
+
+.pedrin {
+    color: white;
+    font-size: 16px;
+    font-family: 'Tahoma' , sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+
+.divHeader {
+    padding-top: 80px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1rem;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.nav-link:hover {
+    color: white !important;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    opacity: 0.8;
+}
+
+.ostras {
+    padding-top: 10px;
+}
+
+.sectionSteps {
+    width: 100%;
+}
+
+.divSteps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 20.375rem;
+    width: 33.32%;
+}
+
+.locales {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/franquicias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.franquicias {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/locales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nosotros {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h3Steps {
+    padding-top: 30px;
+    font-size: 2.188rem;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 800;
+}
+
+.flex i {
+    color:white;
+    font-size: 3.75rem;
+    padding-top: 60px;
+}
+
+.aSteps {
+    color: white;
+    font-size: 0.938rem;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.divASpan {
+    padding-top: 45px;
+}
+
+span {
+    border: 2px solid white;
+}
+
+span:hover {
+    color: black;
+}
+
+.spanSteps {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.spanSteps:hover {
+    background-color: white;
+}
+
+.divAcerca {
+    text-align: center;
+    padding: 120px;
+}
+
+.h3Acerca {
+    font-size: 3.125rem;
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    padding-bottom: 23px;
+}
+
+.divHr {
+    color: black;
+    padding: 35px;
+}
+
+.hrAcerca {
+    border-top: 3px solid black;
+}
+
+.pAcerca {
+    color: black;
+    width: 100%;
+    font: inherit;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+}
+
+.burgersHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nuestras-burgers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+}
+
+.divBurgersHeader {
+    text-align: center;
+    height: 937px;
+}
+
+.h2BurgersHeader {
+    display: inline;
+    font-size: 3.75rem;
+    color: white;
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px black;
+}
+
+.h2BurgersHeader:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.footerBack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.boxFooter {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.h2Footer {
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    border: 3px solid #7a7a7a
+}
+
+.dirFooter {
+    font-size: 1.563rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    text-decoration-color: #7a7a7a;
+    letter-spacing: 0.1em;
+}
+
+.horariosFooter1 {
+    font-size: 1.25rem;
+    padding-top: 25px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.horariosFooter {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.iconsPossFooter {
+    display: flex;
+    justify-content: space-between;
+    padding-top:  25px;
+}
+
+.iconsPossFooter i {
+    font-size: 1.625rem;
+}
+
+.iconsPossFooter .fb-color {
+    color: #4267B2;
+}
+
+.iconsPossFooter .fb-color:hover {
+    opacity: 0.6;
+}
+
+.iconsPossFooter .ig-color {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color:transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ig-color {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.iconsPossFooter .ig-color:hover {
+    opacity: 0.6;
+}
+
+.iconsPossFooter .wp-color{
+    color: #25D366;
+}
+
+.iconsPossFooter .wp-color:hover {
+    opacity: 0.5;
+ }
+
+.boxFooter h2 {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.boxFooter a, .fab {
+    color: white;
+    font-size: 25px;
+    display: inline;
+}
+
+.copyrightFooter {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.copyrightFooter, p {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.copyrightFooter hr {
+    border: none;
+}
+
+.copyrightP {
+    color: #7a7a7a;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.copyrightLink {
+    font-size: 1.125rem;
+    color: #8a8a8a;
+}
+
+/*FINALIZA INDEX*/
+
+/*NOSOTROS*/
+
+.headerNosotros {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/nosotros-back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tituloHeader {
+    font-size: 60px;
+    text-align: center;
+    padding: 350px;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.sectionHistoria {
+    text-align: center;
+    padding: 150px;
+}
+
+.divHistoria h3 {
+    font-size: 7.5rem;
+    font-weight: 700;
+    padding-bottom: 60px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.divHistoria p {
+    color: black;
+    padding: 50px;
+    font-family: 'Lato' , sans-serif;
+}
+
+.emSize {
+    font-size: 1.125rem;
+}
+
+.sectionVideo {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.video {
+    border: 4px solid rgb(99, 99, 99);
+    border-radius: 5px;
+}
+
+/*LOCALES*/
+
+.headerLocales {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/locales-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sectionLocales {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionLocales h2 {
+    font-size: 3.75rem;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    text-decoration-color: black;
+    padding-bottom: 20px;
+}
+
+.divLocales {
+    text-align: center;
+    margin: 150px;
+    min-width: 600px;
+    border: 3px solid black;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.direccionLocales {
+    color: black;
+    font-size: 1.875rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    padding-top: 50px;
+}
+
+.horarioLocales { 
+    color: black;
+    font-family: 'Lato' , sans-serif;
+    padding-top: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.horarioLocales1 {
+    color: black;
+    font-family: 'Lato' , sans-serif;
+    padding-top: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*MENU*/
+
+.headerMenu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/menu-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.starterBs, h4{
+    font-size: 3.125rem;
+    background-color: #edb026;
+    font-family: 'Lato' , sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.imgBr {
+    border-radius: 15px;
+}
+
+.w-100 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info .nombre {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.info .descripcion {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding-top: 15px;
+}
+
+.alert-info {
+    color: rgb(1, 126, 148);
+    font-size: 1.25rem;
+}
+
+/*FRANQUICIAS*/
+
+.headerFranquicias {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/franquicias-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sectionFranquicias {
+    margin: 0 auto;
+    display: block;
+}
+
+.divFranquicias {
+    display: inline-block;
+    text-align: left;
+    padding-left: 130px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.divFranquicias1 {
+    display: inline-block;
+    padding-left: 155px;
+}
+
+.imgFranquicias {
+    border-radius: 55px;
+    background-color: #211f1b;
+    padding: 30px;
+}
+
+.divFranquicias .h4-color {
+    color: #edb026;
+}
+
+.franq-span {
+    color: black;
+}
+
+.divFranquicias h4 {
+    font-size: 2.813rem;
+    font-family: 'Lato' , sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.divFranquicias p {
+    font-size: 1.25rem;
+    color: black;
+    padding-top: 40px;
+    line-height: 1.8;
+    font-family: 'Lato' , sans-serif;
+}
+
+.divLiFranquicias {
+    display: inline-block;
+    text-align: left;
+    padding-left: 600px;
+    padding-bottom: 130px;
+}
+
+.starterMenuFranquicias {
+    font-size: 3.438rem;
+    background-color: #edb026;
+    padding: 15px;
+    font-family: 'Lato' , sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.divLiFranquicias ul li {
+    list-style: disc;
+    font-size: 20px;
+    font-family: 'Tahoma', serif;
+    line-height: 2.5;
+}
+
+.pFranquicias {
+    margin: 0 auto;
+    margin: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pFranquicias p {
+    color: black;
+    text-align: left;
+    font-family: 'Tahoma', serif;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+/*CONTACTO*/
+
+.headerContacto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/contacto-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sectionContacto {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    margin: 150px;
+}
+
+.h4Contacto {
+    font-size: 2.5rem;
+}
+
+.pContacto {
+    color: black;
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+.formContacto {
+    margin: 100px;
+}
+
+.divInputContacto {
+    padding: 10px;
+}
+
+.inputSizeContacto {
+    min-height: 35px;
+    min-width: 400px;
+}
+
+.sizeMsgContacto {
+    min-height: 200px;
+    min-width: 400px;
+}
+
+.btnContacto {
+    font-size: 1.875rem;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Lato' , sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.btnContacto:hover {
+    background-color: #edb026;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MQ MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerIndex {
+        height: 500px;
+    }
+    .divHeader {
+        padding: 0;
+        padding-top: 20px;
+        width: 70%;
+    }
+    .bannerHeader {
+        padding-top: 70px;
+    }
+    .hrHeader {
+        width: 15%;
+    }
+    .imgBanner {
+        width: auto;
+        height: 100px;
+    }
+    .pedrin {
+        font-size: 12px;
+    }
+    .divSteps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex {
+        width: 100%;
+    }
+    .divAcerca {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .h3Acerca {
+        text-align: center;
+        font-size: 2.188rem;
+        line-height: 3rem;
+    }
+    .divHr {
+        color: black;
+        padding: 10px;
+    }
+    .burgersHeader {
+        background-position: center;
+        height: 400px;
+        padding-top: 30px;
+    }
+    .h2BurgersHeader {
+        font-size: 2.5rem;
+    }
+    footer {
+        height: 680px;
+    }
+    .footerBack {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .boxFooter {
+        padding-top: 10px;
+    }
+    .boxFooter h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .dirFooter {
+        font-size: 16px;
+    }
+    .horariosFooter1 {
+        font-size: 10px;
+        padding-top: 0;
+    }
+    .horariosFooter {
+        font-size: 10px;
+        padding-top: 0;
+    }
+    .logoFooter {
+        padding-top: 0px;
+    }
+    .iconsPossFooter {
+        padding-top:  5px;
+        justify-content: center;
+    }
+    .iconsPossFooter i {
+        font-size: 16px;
+    }
+    .ig-color {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .copyrightFooter, p {
+        margin-top: 0;
+    }
+    .copyrightP {
+        margin-top: 0;
+    }
+    .copyrightLink {
+        font-size: 18px;
+    }
+
+    /*MQ MOBILE NOSOTROS*/
+
+    .headerNosotros {
+        height: 500px;
+    }
+    .tituloHeader {
+        font-size: 30px;
+        padding: 0;
+        padding-top: 170px;
+    }
+    .sectionHistoria {
+        text-align: center;
+        padding: 0;
+        padding-top: 50px;
+    }
+    .divHistoria h3 {
+        font-size: 5.5rem;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .divHistoria {
+        padding: 0;
+    }
+
+    .divHistoria p {
+        padding: 30px;
+    }
+    .sectionVideo {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .video {
+        width: 400px;
+        height: 400px;
+    }
+
+    /*MQ MOBILE LOCALES*/
+
+    .headerLocales {
+        height: 500px;
+    }
+    .sectionLocales {
+        display: flex;
+        flex-direction: column;
+    }
+    .divLocales {
+        border-radius: 0px;
+    }
+    .sectionLocales h2 {
+        font-size: 2.5rem;
+        font-family: 'Lato' , sans-serif;
+        padding-bottom: 10px;
+    }
+    .direccionLocales {
+        color: black;
+        font-size: 1.3rem;
+        padding-top: 20px;
+    }
+    .horarioLocales { 
+        color: black;
+        font-family: 'Lato' , sans-serif;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .horarioLocales1 {
+        color: black;
+        font-family: 'Lato' , sans-serif;
+        padding-top: 10px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .iframeLocal {
+        width: 320px;
+        height: 300px;
+    }
+    .divLocales {
+        min-width: 380px;
+        margin: 0px;
+    }
+
+    /*MQ MOBILE LOCALES*/
+
+    .headerMenu {
+        height: 500px;
+    }
+
+    /*MQ MOBILE FRANQUICIAS*/
+
+    .headerFranquicias {
+        height: 500px;
+        background-position: center;
+    }
+    .divFranquicias {
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .divFranquicias p {
+        font-size: 1rem;
+        color: black;
+        padding-top: 40px;
+        line-height: 1.8;
+        font-family: 'Lato' , sans-serif;
+    }
+    .divFranquicias1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .divLiFranquicias {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .divFranquicias h4 {
+        font-size: 2.3rem;
+        font-family: 'Lato' , sans-serif;
+        letter-spacing: 0.1rem;
+    }
+    .divLiFranquicias ul li {
+        list-style: disc;
+        font-size: 16px;
+        font-family: 'Tahoma', serif;
+        line-height: 2.5;
+    }
+    .starterMenuFranquicias {
+        font-size: 2.7rem;
+        background-color: #edb026;
+        padding: 15px;
+        font-family: 'Lato' , sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+    .pFranquicias {
+        margin: 50px;
+    }
+    .pFranquicias p {
+        color: black;
+        text-align: center;
+        font-family: 'Tahoma', serif;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /*MQ MOBILE CONTACTO*/
+
+    .headerContacto {
+        height: 500px;
+        background-position: center;
+    }
+    .sectionContacto {
+         margin: 0px;
+    }
+    .formContacto {
+        margin: 0px;
+        padding-top: 40px;
+    }
+    .h4Contacto {
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+    .pContacto {
+        font-size: 1.2rem;
+        padding-top: 30px;
+    }
+    .divInputContacto {
+        padding-bottom: 20px;
+    }
+}
