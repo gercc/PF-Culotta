@@ -1,0 +1,10 @@
+@mixin font-textcenter($align){
+    font-family: $font-primaria;
+    text-align: $align;
+}
+
+@mixin font-align-color($align,$color){
+    font-family: $font-secundaria;
+    text-align: $align;
+    color: $color;
+}

@@ -1,419 +1,373 @@
+/* MAPS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 a {
-    text-decoration: none;
-}
+  text-decoration: none; }
 
 a:visited {
-    text-decoration: none;
-}
+  text-decoration: none; }
 
 .headerIndex {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/inicio-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.bannerHeader {
-    padding-top: 150px;
-}
-
-.hrHeader {
-    align-items: center;
-    width: 5%;
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
-
-.h2Header {
-    margin-top: 30px;
-}
-
-.h1Animate {
-    color: white;
-    font-size: 1rem;
-    font-family: 'Tahoma' , sans-serif;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: 0.1em;
-}
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/inicio-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  .headerIndex .bannerHeader {
+    padding-top: 150px; }
+    .headerIndex .bannerHeader .hrHeader {
+      align-items: center;
+      width: 5%;
+      color: white;
+      justify-content: center;
+      text-align: center; }
+    .headerIndex .bannerHeader .h2Header {
+      margin-top: 30px; }
+      .headerIndex .bannerHeader .h2Header .h1Animate {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Tahoma' , sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: 0.1em; }
 
 .divHeader {
-    padding-top: 80px;
-}
-
-.nav-link {
-    color: white !important;
-    font-size: 1rem;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-}
-
-.nav-link:hover {
-    color: white !important;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 8px;
-    opacity: 0.8;
-}
+  padding-top: 80px; }
 
 .ulHeader {
-    padding-top: 10px;
-}
+  padding-top: 10px; }
 
-.locales {
-    height: 20.375rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/franquicias.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.nav-link {
+  color: white !important;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2em; }
 
-.franquicias {
-    height: 20.375rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/locales.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav-link:hover {
+  color: white !important;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  opacity: 0.8; }
 
-}
+/* HEADER NOSOTROS*/
+.headerNosotros {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/nosotros-back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
 
-.nosotros {
-    height: 20.375rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.tituloHeader {
+  font-size: 3.75rem;
+  text-align: center;
+  padding: 350px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2em; }
 
-.h3Steps {
+/* HEADER LOCALES*/
+.headerLocales {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/locales-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+/* HEADER MENU*/
+.headerMenu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/menu-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+/* HEADER FRANQUICIAS*/
+.headerFranquicias {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/franquicias-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+/* HEADER CONTACTO*/
+.headerContacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/contacto-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+/* HEADER INDEX MOBILE*/
+@media screen and (max-width: 767px) {
+  .headerIndex {
+    height: 500px; }
+    .headerIndex .bannerHeader {
+      padding-top: 70px; }
+      .headerIndex .bannerHeader .hrHeader {
+        width: 15%; }
+      .headerIndex .bannerHeader .h2Header .h1Animate {
+        font-size: 0.75rem; }
+  .divHeader {
+    padding: 0;
+    padding-top: 20px;
+    width: 70%; }
+  .imgBanner {
+    width: auto;
+    height: 100px; } }
+
+/* HEADER NOSOTROS MOBILE*/
+@media screen and (max-width: 767px) {
+  .headerNosotros {
+    height: 500px; }
+  .tituloHeader {
+    font-size: 1.875rem;
+    padding: 0;
+    padding-top: 170px; } }
+
+/* HEADER LOCALES MOBILE*/
+@media screen and (max-width: 767px) {
+  .headerLocales {
+    height: 500px; } }
+
+/* HEADER MENU MOBILE*/
+@media screen and (max-width: 767px) {
+  .headerMenu {
+    height: 500px; } }
+
+/* HEADER FRANQUICIAS MOBILE*/
+@media screen and (max-width: 767px) {
+  .headerFranquicias {
+    height: 500px;
+    background-position: center; } }
+
+/* HEADER CONTACTO MOBILE*/
+@media screen and (max-width: 767px) {
+  .headerContacto {
+    height: 500px; } }
+
+main .locales {
+  height: 20.375rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/franquicias.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .locales i {
+    color: white;
+    font-size: 3.75rem;
+    padding-top: 60px; }
+  main .locales .h3Steps {
     padding-top: 30px;
     font-size: 2.188rem;
     color: white;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 800;
-}
+    font-family: "Lato", sans-serif;
+    font-weight: 800; }
+  main .locales .divASpan {
+    padding-top: 45px; }
+    main .locales .divASpan .aSteps {
+      color: white;
+      font-size: 0.938rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.2em; }
+      main .locales .divASpan .aSteps span {
+        border: 2px solid white; }
+        main .locales .divASpan .aSteps span:hover {
+          color: black; }
+      main .locales .divASpan .aSteps .spanSteps {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px; }
+        main .locales .divASpan .aSteps .spanSteps:hover {
+          background-color: white; }
 
-.divASpan {
-    padding-top: 45px;
-}
-
-.aSteps {
+main .franquicias {
+  height: 20.375rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/locales.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .franquicias i {
     color: white;
-    font-size: 0.938rem;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-}
-
-span {
-    border: 2px solid white;
-}
-
-span:hover {
-    color: black;
-}
-
-.spanSteps {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.spanSteps:hover {
-    background-color: white;
-}
-
-i {
-    color:white;
     font-size: 3.75rem;
-    padding-top: 60px;
-}
+    padding-top: 60px; }
+  main .franquicias .h3Steps {
+    padding-top: 30px;
+    font-size: 2.188rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 800; }
+  main .franquicias .divASpan {
+    padding-top: 45px; }
+    main .franquicias .divASpan .aSteps {
+      color: white;
+      font-size: 0.938rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.2em; }
+      main .franquicias .divASpan .aSteps span {
+        border: 2px solid white; }
+        main .franquicias .divASpan .aSteps span:hover {
+          color: black; }
+      main .franquicias .divASpan .aSteps .spanSteps {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px; }
+        main .franquicias .divASpan .aSteps .spanSteps:hover {
+          background-color: white; }
 
-.divAcerca {
-    text-align: center;
-    padding: 120px;
-}
+main .nosotros {
+  height: 20.375rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nosotros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .nosotros i {
+    color: white;
+    font-size: 3.75rem;
+    padding-top: 60px; }
+  main .nosotros .h3Steps {
+    padding-top: 30px;
+    font-size: 2.188rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 800; }
+  main .nosotros .divASpan {
+    padding-top: 45px; }
+    main .nosotros .divASpan .aSteps {
+      color: white;
+      font-size: 0.938rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.2em; }
+      main .nosotros .divASpan .aSteps span {
+        border: 2px solid white; }
+        main .nosotros .divASpan .aSteps span:hover {
+          color: black; }
+      main .nosotros .divASpan .aSteps .spanSteps {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px; }
+        main .nosotros .divASpan .aSteps .spanSteps:hover {
+          background-color: white; }
 
-.h3Acerca {
+main .divAcerca {
+  text-align: center;
+  padding: 120px; }
+  main .divAcerca .h3Acerca {
     font-size: 3.125rem;
     letter-spacing: 0.1em;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 800;
-    padding-bottom: 23px;
-}
-
-.divHr {
+    padding-bottom: 23px; }
+  main .divAcerca .divHr {
     color: black;
-    padding: 35px;
-}
-
-.hrAcerca {
-    border-top: 3px solid black;
-}
-
-.pAcerca {
+    padding: 35px; }
+    main .divAcerca .divHr .hrAcerca {
+      border-top: 3px solid black; }
+  main .divAcerca .pAcerca {
     color: black;
     width: 100%;
     font: inherit;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 700;
-}
+    font-family: "Lato", sans-serif;
+    font-weight: 700; }
 
-.burgersHeader {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nuestras-burgers.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 75px;
-}
-
-.divBurgersHeader {
+main .burgersHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nuestras-burgers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 75px; }
+  main .burgersHeader .divBurgersHeader {
     text-align: center;
-    height: 937px;
-}
+    height: 937px; }
+    main .burgersHeader .divBurgersHeader .h2BurgersHeader {
+      display: inline;
+      font-size: 3.75rem;
+      color: white;
+      letter-spacing: 0.1em;
+      font-family: "Lato", sans-serif;
+      font-weight: 800;
+      text-shadow: 1px 1px 2px black; }
+      main .burgersHeader .divBurgersHeader .h2BurgersHeader:hover {
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 8px;
+        opacity: 0.9; }
 
-.h2BurgersHeader {
-    display: inline;
-    font-size: 3.75rem;
-    color: white;
-    letter-spacing: 0.1em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    text-shadow: 1px 1px 2px black;
-}
+@media screen and (max-width: 767px) {
+  main .divAcerca {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    main .divAcerca .h3Acerca {
+      text-align: center;
+      font-size: 2.188rem;
+      line-height: 3rem; }
+    main .divAcerca .divHr {
+      color: black;
+      padding: 10px; }
+  main .burgersHeader {
+    background-position: center;
+    height: 400px;
+    padding-top: 30px; }
+    main .burgersHeader .divBurgersHeader .h2BurgersHeader {
+      font-size: 2.5rem; } }
 
-.h2BurgersHeader:hover {
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 8px;
-    opacity: 0.9;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    padding-top: 5px;
-    width: 100%;
-}
-
-.footerBack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 40px;
-    text-align: center;
-}
-
-.boxFooter {
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-.boxFooterLogo {
-    display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-}
-
-.h2Footer {
-    letter-spacing: 0.1em;
-    font-family: 'Lato', sans-serif;
-    border: 3px solid #7a7a7a
-}
-
-.dirFooter {
-    font-size: 1.563rem;
-    font-family: 'Lato', sans-serif;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 8px;
-    text-decoration-color: #7a7a7a;
-    letter-spacing: 0.1em;
-}
-
-.horariosFooter1 {
-    font-size: 1.25rem;
-    padding-top: 25px;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.1em;
-}
-
-.horariosFooter {
-    font-size: 1.25rem;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.1em;
-}
-
-.iconsPossFooter {
-    display: flex;
-    justify-content: space-between;
-}
-
-.iconsPossFooter i {
-    font-size: 1.625rem;
-}
-
-.iconsPossFooter .fa-facebook {
-    color: #4267B2;
-}
-
-.iconsPossFooter .fa-facebook:hover {
-    opacity: 0.6;
-}
-
-.iconsPossFooter .fa-instagram {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%); 
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%);
-    color: transparent; 
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.ig-color {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.iconsPossFooter .fa-instagram:hover {
-    opacity: 0.6;
-}
-
-.iconsPossFooter .fa-whatsapp{
-    color: #25D366;
-}
-
-.iconsPossFooter .fa-whatsapp:hover {
-    opacity: 0.5;
- }
-
-.boxFooter h2 {
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-size: 2.5rem;
-}
-
-.boxFooter a, .fab {
-    color: white;
-    font-size: 1.563rem;
-    display: inline;
-}
-
-.copyrightFooter {
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-}
-
-.copyrightFooter, p {
-    margin-top: 15px;
-    color: white;
-    font-size: 1.25rem;
-}
-
-.copyrightFooter hr {
-    border: none;
-}
-
-.copyrightP {
-    color: #7a7a7a;
-    font-size: 1rem;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-
-.copyrightLink {
-    font-size: 1.125rem;
-    color: #8a8a8a;
-}
-
-/*FINALIZA INDEX*/
-
-/*NOSOTROS*/
-
-.headerNosotros {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/nosotros-back.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.tituloHeader {
-    font-size: 3.75rem;
-    text-align: center;
-    padding: 350px;
-    color: white;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-}
-
-.sectionHistoria {
-    text-align: center;
-    padding: 150px;
-}
-
-.divHistoria h3 {
+main .sectionHistoria {
+  text-align: center;
+  padding: 150px; }
+  main .sectionHistoria .divHistoria h3 {
     font-size: 7.5rem;
     font-weight: 700;
     padding-bottom: 60px;
-    font-family: 'Amatic SC', cursive;
-}
-
-.divHistoria p {
+    font-family: 'Amatic SC', cursive; }
+  main .sectionHistoria .divHistoria p {
+    font-size: 25px;
     color: black;
     padding: 50px;
-    font-family: 'Lato' , sans-serif;
-}
+    font-family: "Montserrat", sans-serif; }
+  main .sectionHistoria .divHistoria .emSize {
+    font-size: 1.125rem; }
 
-.emSize {
-    font-size: 1.125rem;
-}
+main .sectionVideo {
+  text-align: center;
+  padding-bottom: 200px; }
+  main .sectionVideo .video {
+    border: 4px solid #636363;
+    border-radius: 5px; }
 
-.sectionVideo {
+@media screen and (max-width: 767px) {
+  main .sectionHistoria {
     text-align: center;
-    padding-bottom: 200px;
-}
+    padding: 0;
+    padding-top: 50px; }
+    main .sectionHistoria .divHistoria {
+      padding: 0; }
+      main .sectionHistoria .divHistoria h3 {
+        font-size: 5.5rem;
+        font-weight: 700;
+        padding-bottom: 10px; }
+      main .sectionHistoria .divHistoria p {
+        padding: 30px; }
+  main .sectionVideo {
+    padding-top: 60px;
+    padding-bottom: 30px; }
+  main .video {
+    width: 400px;
+    height: 400px; } }
 
-.video {
-    border: 4px solid rgb(99, 99, 99);
-    border-radius: 5px;
-}
-
-/*LOCALES*/
-
-.headerLocales {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/locales-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.sectionLocales {
-    display: flex;
-    justify-content: center;
-}
-
-.sectionLocales h2 {
+main .sectionLocales {
+  display: flex;
+  justify-content: center; }
+  main .sectionLocales h2 {
     font-size: 3.75rem;
-    font-family: 'Lato' , sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-decoration-line: underline;
     text-decoration-thickness: 4px;
     text-underline-offset: 10px;
     text-decoration-color: black;
-    padding-bottom: 20px;
-}
-
-.divLocales {
+    padding-bottom: 20px; }
+  main .sectionLocales .divLocales {
     text-align: center;
     margin: 150px;
     min-width: 600px;
@@ -423,510 +377,338 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 40px;
-    padding-right: 40px;
-}
-
-.direccionLocales {
-    color: black;
-    font-size: 1.875rem;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.1em;
-    padding-top: 50px;
-}
-
-.horarioLocales { 
-    color: black;
-    font-family: 'Lato' , sans-serif;
-    padding-top: 30px;
-    letter-spacing: 0.1em;
-    text-align: center;
-}
-
-.horarioLocales1 {
-    color: black;
-    font-family: 'Lato' , sans-serif;
-    padding-top: 30px;
-    letter-spacing: 0.1em;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-/*MENU*/
-
-.headerMenu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/menu-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.starterBs, h4{
-    font-size: 3.125rem;
-    background-color: #edb026;
-    font-family: 'Lato' , sans-serif;
-    letter-spacing: 0.1em;
-    text-align: center;
-}
-
-.imgBr {
-    border-radius: 15px;
-}
-
-.w-100 {
-    border-radius: 15px;
-}
-
-.info .nombre {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 1rem;
-}
-
-.info .descripcion {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 0.875rem;
-    padding-top: 15px;
-}
-
-.alert-info {
-    color: rgb(1, 126, 148);
-    font-size: 1.25rem;
-}
-
-/*FRANQUICIAS*/
-
-.headerFranquicias {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/franquicias-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.sectionFranquicias {
-    margin: 0 auto;
-    display: block;
-}
-
-.divFranquicias {
-    display: inline-block;
-    text-align: left;
-    padding-left: 130px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
-.divFranquicias1 {
-    display: inline-block;
-    padding-left: 155px;
-}
-
-.imgFranquicias {
-    border-radius: 55px;
-    background-color: #211f1b;
-    padding: 30px;
-}
-
-.divFranquicias .h4-color {
-    color: #edb026;
-}
-
-.franq-span {
-    color: black;
-}
-
-.divFranquicias h4 {
-    font-size: 2.813rem;
-    font-family: 'Lato' , sans-serif;
-    letter-spacing: 0.1rem;
-}
-
-.divFranquicias p {
-    font-size: 1.25rem;
-    color: black;
-    padding-top: 40px;
-    line-height: 1.8;
-    font-family: 'Lato' , sans-serif;
-}
-
-.divLiFranquicias {
-    display: inline-block;
-    text-align: left;
-    padding-left: 600px;
-    padding-bottom: 130px;
-}
-
-.starterMenuFranquicias {
-    font-size: 3.438rem;
-    background-color: #edb026;
-    padding: 15px;
-    font-family: 'Lato' , sans-serif;
-    letter-spacing: 0.1em;
-    text-align: center;
-}
-
-.divLiFranquicias ul li {
-    list-style: disc;
-    font-size: 1.25rem;
-    font-family: 'Tahoma', serif;
-    line-height: 2.5;
-}
-
-.pFranquicias {
-    margin: 0 auto;
-    margin: 100px;
-    display: inline-block;
-    text-align: center;
-}
-
-.pFranquicias p {
-    color: black;
-    text-align: left;
-    font-family: 'Tahoma', serif;
-    font-size: 1.25rem;
-    line-height: 2;
-}
-
-/*CONTACTO*/
-
-.headerContacto {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/contacto-back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-.sectionContacto {
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Lato' , sans-serif;
-    margin: 150px;
-}
-
-.h4Contacto {
-    font-size: 2.5rem;
-}
-
-.pContacto {
-    color: black;
-    font-size: 1.25rem;
-    padding-top: 70px;
-}
-
-.formContacto {
-    margin: 100px;
-}
-
-.divInputContacto {
-    padding: 10px;
-}
-
-.inputSizeContacto {
-    min-height: 35px;
-    min-width: 400px;
-}
-
-.sizeMsgContacto {
-    min-height: 200px;
-    min-width: 400px;
-}
-
-.btnContacto {
-    font-size: 1.875rem;
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: 'Lato' , sans-serif;
-    letter-spacing: 0.1em;
-}
-
-.btnContacto:hover {
-    background-color: #edb026;
-    opacity: 0.9;
-}
-
-
-/*MQ MOBILE INDEX*/
+    padding-right: 40px; }
+    main .sectionLocales .divLocales .direccionLocales {
+      color: black;
+      font-size: 1.875rem;
+      font-family: "Lato", sans-serif;
+      letter-spacing: 0.1em;
+      padding-top: 50px; }
+    main .sectionLocales .divLocales .horarioLocales {
+      color: black;
+      font-family: "Lato", sans-serif;
+      padding-top: 30px;
+      letter-spacing: 0.1em;
+      text-align: center; }
+    main .sectionLocales .divLocales .horarioLocales1 {
+      color: black;
+      font-family: "Lato", sans-serif;
+      padding-top: 30px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      padding-bottom: 50px; }
 
 @media screen and (max-width: 767px) {
-    .headerIndex {
-        height: 500px;
-    }
-    .divHeader {
-        padding: 0;
-        padding-top: 20px;
-        width: 70%;
-    }
-    .bannerHeader {
-        padding-top: 70px;
-    }
-    .hrHeader {
-        width: 15%;
-    }
-    .imgBanner {
-        width: auto;
-        height: 100px;
-    }
-    .h1Animate {
-        font-size: 0.75rem;
-    }
-    .divSteps {
-        flex-direction: column;
-        align-items: center;
-    }
-    .flex {
-        width: 100%;
-    }
-    .divAcerca {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .h3Acerca {
-        text-align: center;
-        font-size: 2.188rem;
-        line-height: 3rem;
-    }
-    .divHr {
-        color: black;
-        padding: 10px;
-    }
-    .burgersHeader {
-        background-position: center;
-        height: 400px;
-        padding-top: 30px;
-    }
-    .h2BurgersHeader {
-        font-size: 2.5rem;
-    }
-    footer {
-        height: 690px;
-    }
-    .footerBack {
-        flex-direction: column;
-        margin-top: 5px;
-    }
-    .boxFooter {
-        padding-top: 10px;
-    }
-    .boxFooterLogo {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-    }
-    .boxFooter h2 {
-        font-size: 1.875rem;
-        margin-bottom: 20px;
-    }
-    .dirFooter {
-        font-size: 1rem;
-    }
-    .horariosFooter1 {
-        font-size: 0.625rem;
-        padding-top: 0;
-    }
-    .horariosFooter {
-        font-size: 0.625rem;
-        padding-top: 0;
-    }
-    .logoFooter {
-        padding-top: 0px;
-    }
-    .iconsPossFooter {
-        padding: 0;
-        justify-content: center;
-    }
-    .iconsPossFooter i {
-        padding-top: 35px;
-        font-size: 1rem;
-    }
-    .ig-color {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .copyrightFooter, p {
-        margin-top: 0;
-    }
-    .copyrightP {
-        margin-top: 0;
-    }
-    .copyrightLink {
-        font-size: 1.125rem;
-    }
-
-    /*MQ MOBILE NOSOTROS*/
-
-    .headerNosotros {
-        height: 500px;
-    }
-    .tituloHeader {
-        font-size: 1.875rem;
-        padding: 0;
-        padding-top: 170px;
-    }
-    .sectionHistoria {
-        text-align: center;
-        padding: 0;
-        padding-top: 50px;
-    }
-    .divHistoria h3 {
-        font-size: 5.5rem;
-        font-weight: 700;
-        padding-bottom: 10px;
-    }
-    .divHistoria {
-        padding: 0;
-    }
-
-    .divHistoria p {
-        padding: 30px;
-    }
-    .sectionVideo {
-        padding-top: 60px;
-        padding-bottom: 30px;
-    }
-    .video {
-        width: 400px;
-        height: 400px;
-    }
-
-    /*MQ MOBILE LOCALES*/
-
-    .headerLocales {
-        height: 500px;
-    }
-    .sectionLocales {
-        display: flex;
-        flex-direction: column;
-    }
-    .divLocales {
-        border-radius: 0px;
-    }
-    .sectionLocales h2 {
-        font-size: 2.5rem;
-        font-family: 'Lato' , sans-serif;
-        padding-bottom: 10px;
-    }
-    .direccionLocales {
+  main .sectionLocales {
+    display: flex;
+    flex-direction: column; }
+    main .sectionLocales h2 {
+      font-size: 2.5rem;
+      font-family: "Lato", sans-serif;
+      padding-bottom: 10px; }
+    main .sectionLocales .divLocales {
+      border-radius: 0px;
+      min-width: 380px;
+      margin: 0px; }
+      main .sectionLocales .divLocales .direccionLocales {
         color: black;
         font-size: 1.3rem;
-        padding-top: 20px;
-    }
-    .horarioLocales { 
+        padding-top: 20px; }
+      main .sectionLocales .divLocales .horarioLocales {
         color: black;
-        font-family: 'Lato' , sans-serif;
+        font-family: "Lato", sans-serif;
         padding-top: 10px;
-        text-align: center;
-    }
-    .horarioLocales1 {
+        text-align: center; }
+      main .sectionLocales .divLocales .horarioLocales1 {
         color: black;
-        font-family: 'Lato' , sans-serif;
+        font-family: "Lato", sans-serif;
         padding-top: 10px;
         letter-spacing: 0.1em;
         text-align: center;
-        padding-bottom: 50px;
-    }
-    .iframeLocal {
-        width: 320px;
-        height: 300px;
-    }
-    .divLocales {
-        min-width: 380px;
-        margin: 0px;
-    }
+        padding-bottom: 50px; }
+  .iframeLocal {
+    width: 320px;
+    height: 300px; } }
 
-    /*MQ MOBILE MENU*/
+main section .alert-info {
+  color: #017e94;
+  font-size: 1.25rem; }
 
-    .headerMenu {
-        height: 500px;
-    }
+main section .imgBr {
+  border-radius: 15px; }
 
-    /*MQ MOBILE FRANQUICIAS*/
+main section .info .nombre {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 1rem; }
 
-    .headerFranquicias {
-        height: 500px;
-        background-position: center;
-    }
-    .divFranquicias {
-        display: inline-block;
-        text-align: center;
-        padding: 0;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .divFranquicias p {
-        font-size: 1rem;
-        color: black;
-        padding-top: 40px;
-        line-height: 1.8;
-        font-family: 'Lato' , sans-serif;
-    }
-    .divFranquicias1 {
+main section .info .descripcion {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding-top: 15px; }
+
+main section .starterBs {
+  background-color: #edb026; }
+  main section .starterBs h4 {
+    font-size: 3.125rem;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center; }
+
+main section .w-100 {
+  border-radius: 15px; }
+
+main section .sizeVentajas {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  main section .sizeVentajas .h4-color {
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    color: #211f1b;
+    background-color: white;
+    font-size: 45px;
+    letter-spacing: 0; }
+    main section .sizeVentajas .h4-color .franqSpan {
+      font-size: 45px;
+      color: #edb026; }
+      main section .sizeVentajas .h4-color .franqSpan:hover {
+        color: #edb026; }
+  main section .sizeVentajas .franquiciasSizeP {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    color: #999;
+    padding-top: 30px;
+    font-size: 23px;
+    line-height: 25px; }
+
+main section .sizeUl {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+  main section .sizeUl .list-group-item {
+    font-family: "Montserrat", sans-serif; }
+
+main section .starterBs {
+  background-color: #edb026; }
+  main section .starterBs h4 {
+    font-size: 3.125rem;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center; }
+
+main section .sizeH2Franquicias {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 25px; }
+
+main section .accordion-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; }
+  main section .accordion-button:not(.collapsed) {
+    color: #edb026;
+    background-color: #211f1b; }
+  main section .accordion-button:focus {
+    border-color: #181a1b;
+    box-shadow: 0 0 0 0.25rem rgba(11, 12, 14, 0.25); }
+
+main section .accordion-body {
+  padding: 2rem; }
+
+@media screen and (max-width: 767px) {
+  .sizeUl {
+    width: 100%;
+    margin-top: 0px; } }
+
+@media (min-width: 576px) {
+  .circleStore {
+    background-color: #211f1b;
+    height: 302px;
+    width: 302px;
+    border-radius: 50%; } }
+
+@media (max-width: 576px) {
+  .circleStore {
+    background-color: #211f1b;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px; }
+  .imgFranquicias {
+    height: 100px; } }
+
+section .h2Contacto {
+  font-size: 2.2rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em; }
+
+section .pContacto {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  padding-top: 60px; }
+
+section .formWidth {
+  width: 50%; }
+  section .formWidth .sizeMsg {
+    height: 200px; }
+
+section .btnContacto {
+  background-color: #edb026;
+  border-color: #edb026;
+  font-size: 1.875rem;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em; }
+  section .btnContacto:hover {
+    background-color: #211f1b;
+    border-color: #211f1b;
+    opacity: 0.9; }
+
+@media screen and (max-width: 767px) {
+  section .formWidth {
+    width: 100%; }
+  section .h2Contacto {
+    font-size: 1.5rem; }
+  section .pContacto {
+    font-size: 1rem;
+    padding-top: 40px; } }
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  width: 100%; }
+  footer .footerBack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center; }
+    footer .footerBack .boxFooter {
+      display: flex;
+      flex-direction: column;
+      padding-top: 40px; }
+      footer .footerBack .boxFooter .h2Footer {
+        letter-spacing: 0.1em;
+        font-family: "Lato", sans-serif;
+        border: 3px solid #7a7a7a; }
+      footer .footerBack .boxFooter .dirFooter {
+        font-size: 1.563rem;
+        font-family: "Lato", sans-serif;
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 8px;
+        text-decoration-color: #7a7a7a;
+        letter-spacing: 0.1em; }
+      footer .footerBack .boxFooter .horariosFooter1 {
+        font-size: 1.25rem;
+        padding-top: 25px;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 0.1em; }
+      footer .footerBack .boxFooter .horariosFooter {
+        font-size: 1.25rem;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 0.1em; }
+    footer .footerBack h2 {
+      margin-bottom: 40px;
+      font-weight: 700;
+      font-size: 2.5rem; }
+    footer .footerBack .fab {
+      color: white;
+      font-size: 1.563rem;
+      display: inline; }
+    footer .footerBack .boxFooterLogo {
+      display: flex;
+      flex-direction: column;
+      padding-top: 40px; }
+      footer .footerBack .boxFooterLogo .iconsPossFooter {
         display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-    .divLiFranquicias {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        padding-left: 30px;
-        padding-top: 60px;
-        padding-bottom: 50px;
-    }
-    .divFranquicias h4 {
-        font-size: 2.3rem;
-        font-family: 'Lato' , sans-serif;
-        letter-spacing: 0.1rem;
-    }
-    .divLiFranquicias ul li {
-        list-style: disc;
-        font-size: 1rem;
-        font-family: 'Tahoma', serif;
-        line-height: 2.5;
-    }
-    .starterMenuFranquicias {
-        font-size: 2.7rem;
-        background-color: #edb026;
-        padding: 15px;
-        font-family: 'Lato' , sans-serif;
-        letter-spacing: 0.1em;
-        text-align: center;
-    }
-    .pFranquicias {
-        margin: 50px;
-    }
-    .pFranquicias p {
-        color: black;
-        text-align: center;
-        font-family: 'Tahoma', serif;
-        font-size: 1rem;
-        line-height: 1.6;
-    }
+        justify-content: space-between; }
+        footer .footerBack .boxFooterLogo .iconsPossFooter i {
+          font-size: 1.625rem;
+          padding-top: 40px; }
+      footer .footerBack .boxFooterLogo .fa-facebook {
+        color: #4267B2; }
+        footer .footerBack .boxFooterLogo .fa-facebook:hover {
+          opacity: 0.6; }
+      footer .footerBack .boxFooterLogo .fa-instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text; }
+        footer .footerBack .boxFooterLogo .fa-instagram:hover {
+          opacity: 0.6; }
+      footer .footerBack .boxFooterLogo .ig-color {
+        padding-left: 20px;
+        padding-right: 20px; }
+      footer .footerBack .boxFooterLogo .fa-whatsapp {
+        color: #25D366; }
+        footer .footerBack .boxFooterLogo .fa-whatsapp:hover {
+          opacity: 0.5; }
+  footer .copyrightFooter {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center; }
+    footer .copyrightFooter hr {
+      border: none; }
+    footer .copyrightFooter p {
+      margin-top: 15px;
+      color: white;
+      font-size: 1.25rem; }
+    footer .copyrightFooter .copyrightP {
+      color: #7a7a7a;
+      font-size: 1rem;
+      margin-top: 30px;
+      margin-bottom: 0; }
+    footer .copyrightFooter .copyrightLink {
+      font-size: 1.125rem;
+      color: #8a8a8a; }
 
-    /*MQ MOBILE CONTACTO*/
-
-    .headerContacto {
-        height: 500px;
-        background-position: center;
-    }
-    .sectionContacto {
-         margin: 0px;
-    }
-    .formContacto {
-        margin: 0px;
-        padding-top: 40px;
-    }
-    .h4Contacto {
-        padding-top: 50px;
-        font-size: 2rem;
-    }
-    .pContacto {
-        font-size: 1.2rem;
-        padding-top: 30px;
-    }
-    .divInputContacto {
-        padding-bottom: 20px;
-    }
-}
+@media screen and (max-width: 767px) {
+  footer {
+    height: 690px; }
+    footer .footerBack {
+      flex-direction: column;
+      margin-top: 5px; }
+      footer .footerBack .boxFooter {
+        padding-top: 10px; }
+        footer .footerBack .boxFooter h2 {
+          font-size: 1.875rem;
+          margin-bottom: 20px; }
+        footer .footerBack .boxFooter .dirFooter {
+          font-size: 1rem; }
+        footer .footerBack .boxFooter .horariosFooter1 {
+          font-size: 0.625rem;
+          padding-top: 0; }
+        footer .footerBack .boxFooter .horariosFooter {
+          font-size: 0.625rem;
+          padding-top: 0; }
+      footer .footerBack .boxFooterLogo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px; }
+        footer .footerBack .boxFooterLogo .logoFooter {
+          padding-top: 0px; }
+        footer .footerBack .boxFooterLogo .iconsPossFooter {
+          padding: 0;
+          justify-content: center; }
+          footer .footerBack .boxFooterLogo .iconsPossFooter i {
+            padding-top: 35px;
+            font-size: 1rem; }
+          footer .footerBack .boxFooterLogo .iconsPossFooter .ig-color {
+            padding-left: 20px;
+            padding-right: 20px; }
+    footer .copyrightFooter p {
+      margin-top: 0; }
+    footer .copyrightFooter .copyrightP {
+      margin-top: 0; }
+    footer .copyrightFooter .copyrightLink {
+      font-size: 1.125rem; } }

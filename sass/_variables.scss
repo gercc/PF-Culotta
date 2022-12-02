@@ -1,0 +1,25 @@
+$color-blanco: white;
+$color-negro: black;
+$centrado: center;
+$font-primaria: 'Lato' , sans-serif;
+$font-secundaria: 'Montserrat', sans-serif;
+$height-mobile: 500px;
+$ancho: 100%;
+
+
+/* MAPS */
+
+$starter:(
+    font-size: 3.125rem,
+    color: #edb026,
+    font-family: 'Montserrat' sans-serif,
+    letter-spacing: 0.1em,
+    text-align: center,
+    font-weight: 600,
+);
+
+$borders:(
+    border-solid-black: 1px solid black,
+    border-solid-dospx: 2px solid black,
+    border-solid-trespx: 3px solid black,
+);

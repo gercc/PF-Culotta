@@ -1,0 +1,184 @@
+.headerIndex {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/inicio-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+        .bannerHeader {
+            padding-top: 150px;
+                .hrHeader {
+                    align-items: $centrado;
+                    width: 5%;
+                    color: $color-blanco;
+                    justify-content: $centrado;
+                    text-align: $centrado;
+                    }
+                .h2Header {
+                margin-top: 30px;
+                    .h1Animate {
+                        color: $color-blanco;
+                        font-size: 1rem;
+                        font-family: 'Tahoma' , sans-serif;
+                        font-weight: 600;
+                        line-height: 1.2;
+                        letter-spacing: 0.1em;
+            }
+        }    
+    }    
+}
+
+.divHeader {
+    padding-top: 80px;
+}
+
+.ulHeader {
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: $color-blanco !important;
+    font-size: 1rem;
+    font-family: $font-primaria;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.nav-link:hover {
+    color: $color-blanco !important;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    opacity: 0.8;
+}
+
+/* HEADER NOSOTROS*/
+
+.headerNosotros {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/nosotros-back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tituloHeader {
+    font-size: 3.75rem;
+    text-align: $centrado;
+    padding: 350px;
+    color: $color-blanco;
+    font-family: $font-primaria;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+/* HEADER LOCALES*/
+
+.headerLocales {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/locales-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* HEADER MENU*/
+
+.headerMenu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/menu-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* HEADER FRANQUICIAS*/
+
+.headerFranquicias {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/franquicias-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* HEADER CONTACTO*/
+
+.headerContacto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/contacto-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+/* HEADER INDEX MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerIndex {
+        height: $height-mobile;
+        .bannerHeader {
+            padding-top: 70px;
+            .hrHeader {
+                width: 15%;
+            }
+        .h2Header {
+            .h1Animate {
+                font-size: 0.75rem;
+            }
+        }
+        }
+    }
+    
+    .divHeader {
+        padding: 0;
+        padding-top: 20px;
+        width: ($ancho)-30;
+    }
+
+    .imgBanner {
+        width: auto;
+        height: 100px;
+    }
+}
+
+/* HEADER NOSOTROS MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerNosotros {
+        height: $height-mobile;
+    }
+    .tituloHeader {
+        font-size: 1.875rem;
+        padding: 0;
+        padding-top: 170px;
+    }
+}
+
+/* HEADER LOCALES MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerLocales {
+        height: $height-mobile;
+    }
+}
+
+/* HEADER MENU MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerMenu {
+        height: $height-mobile;
+    }
+}
+
+/* HEADER FRANQUICIAS MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerFranquicias {
+        height: $height-mobile;
+        background-position: $centrado;
+    }
+}
+
+/* HEADER CONTACTO MOBILE*/
+
+@media screen and (max-width: 767px) {
+    .headerContacto {
+        height: $height-mobile;
+    }
+}

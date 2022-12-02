@@ -1,0 +1,62 @@
+main {
+    .sectionHistoria {
+        text-align: $centrado;
+        padding: 150px;
+        .divHistoria {
+            h3 {
+                font-size: 7.5rem;
+                font-weight: 700;
+                padding-bottom: 60px;
+                font-family: 'Amatic SC', cursive;
+            }
+            p {
+                font-size: 25px;
+                color: $color-negro;
+                padding: 50px;
+                font-family: $font-secundaria;
+            }
+            .emSize {
+                font-size: 1.125rem;
+            }
+        }
+    }
+    .sectionVideo {
+        text-align: $centrado;
+        padding-bottom: 200px;
+        .video {
+            border: 4px solid rgb(99, 99, 99);
+            border-radius: 5px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    main {
+        .sectionHistoria {
+            text-align: $centrado;
+            padding: 0;
+            padding-top: 50px;
+                .divHistoria {
+                    padding: 0;
+                    h3 {
+                        font-size: 5.5rem;
+                        font-weight: 700;
+                        padding-bottom: 10px;
+                    }
+                    p {
+                        padding: 30px;
+                    }
+                }
+        }
+    
+        .sectionVideo {
+            padding-top: 60px;
+            padding-bottom: 30px;
+        }
+        .video {
+            width: 400px;
+            height: 400px;
+        }
+}
+}

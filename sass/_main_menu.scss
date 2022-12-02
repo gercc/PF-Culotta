@@ -1,0 +1,38 @@
+main {
+    section {
+        .alert-info {
+            color: rgb(1, 126, 148);
+            font-size: 1.25rem;
+        }
+        .imgBr {
+            border-radius: 15px;
+        }
+    .info {
+        .nombre {
+            color: $color-negro;
+            font-family: $font-secundaria;
+            font-weight: 800;
+            font-size: 1rem;
+        }
+        .descripcion {
+            color: $color-negro;
+            font-family: $font-secundaria;
+            font-weight: 500;
+            font-size: 0.875rem;
+            padding-top: 15px;
+        }
+    }
+    .starterBs {
+        background-color: map-get($starter , color);
+        h4{
+            font-size: map-get($starter , font-size);
+            font-family: $font-primaria;
+            letter-spacing: map-get($starter , letter-spacing);
+            text-align: $centrado;
+        }
+    }
+    .w-100 {
+        border-radius: 15px;
+    }
+    }
+}

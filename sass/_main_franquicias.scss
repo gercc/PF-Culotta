@@ -1,0 +1,95 @@
+main {
+    section {
+        .sizeVentajas {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            .h4-color {
+                @include font-textcenter(left);
+                color: #211f1b;
+                background-color: $color-blanco;
+                font-size: 45px;
+                letter-spacing: 0;
+                .franqSpan {
+                    font-size: 45px;
+                    color: #edb026;
+                    &:hover {
+                        color: #edb026;
+                    }
+                }
+            }
+            .franquiciasSizeP {
+                @include font-align-color(left,#999);
+                padding-top: 30px;
+                font-size: 23px;
+                line-height: 25px;
+            }
+        }
+        .sizeUl {
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            .list-group-item {
+                font-family: $font-secundaria;
+            }
+        }
+        .starterBs {
+            background-color: #edb026;
+            h4{
+                font-size: 3.125rem;
+                font-family: $font-primaria;
+                letter-spacing: 0.1em;
+                text-align: $centrado;
+            }
+        }
+        .sizeH2Franquicias {
+            font-family: $font-secundaria;
+            font-size: 16px;
+            line-height: 25px;
+        }
+        .accordion-button {
+            font-family: $font-secundaria;
+            font-weight: 600;
+            &:not(.collapsed) {
+                color: #edb026;
+                background-color: rgb(33, 31, 27);
+            }
+            &:focus {
+                border-color: #181a1b;
+                box-shadow: 0 0 0 0.25rem rgba(11, 12, 14, 0.25);
+            }
+        }
+        .accordion-body {
+            padding: 2rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .sizeUl {
+        width: $ancho;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    .circleStore {
+        background-color: #211f1b;
+        height: 302px;
+        width: 302px;
+        border-radius: 50%;
+}
+}
+
+@media (max-width: 576px){
+    .circleStore {
+        background-color: #211f1b;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-top: 50px;
+}
+    .imgFranquicias {
+        height: 100px;
+    }
+}

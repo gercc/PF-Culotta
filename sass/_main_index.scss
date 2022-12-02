@@ -1,0 +1,210 @@
+main {
+    .locales {
+        height: 20.375rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/franquicias.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    i {
+        color:$color-blanco;
+        font-size: 3.75rem;
+        padding-top: 60px;
+        }
+        .h3Steps {
+            padding-top: 30px;
+            font-size: 2.188rem;
+            color: $color-blanco;
+            font-family: $font-primaria;
+            font-weight: 800;
+        }
+    .divASpan {
+        padding-top: 45px;
+        .aSteps {
+            color: $color-blanco;
+            font-size: 0.938rem;
+            font-family: $font-primaria;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            span {
+                border: 2px solid $color-blanco;
+                &:hover {
+                    color: $color-negro;
+                }
+            }
+        .spanSteps {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 35px;
+            padding-right: 35px;
+            &:hover {
+                background-color: $color-blanco;
+            }
+            }
+        }
+    }
+    }
+    .franquicias {
+        height: 20.375rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/locales.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    i {
+        color: $color-blanco;
+        font-size: 3.75rem;
+        padding-top: 60px;
+        }
+        .h3Steps {
+            padding-top: 30px;
+            font-size: 2.188rem;
+            color: $color-blanco;
+            font-family: $font-primaria;
+            font-weight: 800;
+        }
+    .divASpan {
+        padding-top: 45px;
+        .aSteps {
+            color: $color-blanco;
+            font-size: 0.938rem;
+            font-family: $font-primaria;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            span {
+                border: 2px solid $color-blanco;
+                &:hover {
+                    color: $color-negro;
+                }
+            }
+        .spanSteps {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 35px;
+            padding-right: 35px;
+            &:hover {
+                background-color: $color-blanco;
+            }
+            }
+        }
+    }
+    }
+    .nosotros {
+        height: 20.375rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nosotros.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    i {
+        color: $color-blanco;
+        font-size: 3.75rem;
+        padding-top: 60px;
+        }
+        .h3Steps {
+            padding-top: 30px;
+            font-size: 2.188rem;
+            color: $color-blanco;
+            font-family: $font-primaria;
+            font-weight: 800;
+        }
+    .divASpan {
+        padding-top: 45px;
+        .aSteps {
+            color: $color-blanco;
+            font-size: 0.938rem;
+            font-family: $font-primaria;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            span {
+                border: 2px solid $color-blanco;
+                &:hover {
+                    color: $color-negro;
+                }
+            }
+        .spanSteps {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 35px;
+            padding-right: 35px;
+            &:hover {
+                background-color: $color-blanco;
+            }
+        }
+        }
+    }
+    }
+.divAcerca {
+    text-align: $centrado;
+    padding: 120px;
+        .h3Acerca {
+            font-size: 3.125rem;
+            letter-spacing: 0.1em;
+            font-family: $font-primaria;
+            font-weight: 800;
+            padding-bottom: 23px;
+        }
+.divHr {
+    color: $color-negro;
+    padding: 35px;
+        .hrAcerca {
+            border-top: map-get($borders , border-solid-trespx);
+        }
+}
+.pAcerca {
+    color: $color-negro;
+    width: $ancho;
+    font: inherit;
+    font-family: $font-primaria;
+    font-weight: 700;
+}
+}
+.burgersHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nuestras-burgers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+        .divBurgersHeader {
+            text-align: $centrado;
+            height: 937px;
+            .h2BurgersHeader {
+                display: inline;
+                font-size: 3.75rem;
+                color: $color-blanco;
+                letter-spacing: 0.1em;
+                font-family: $font-primaria;
+                font-weight: 800;
+                text-shadow: 1px 1px 2px $color-negro;
+                &:hover {
+                    text-decoration-line: underline;
+                    text-decoration-thickness: 2px;
+                    text-underline-offset: 8px;
+                    opacity: 0.9;
+                }
+            }
+        }
+}
+}
+
+
+@media screen and (max-width: 767px) {
+    main {
+        .divAcerca {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .h3Acerca {
+                text-align: $centrado;
+                font-size: 2.188rem;
+                line-height: 3rem;
+            }
+        .divHr {
+            color: $color-negro;
+            padding: 10px;
+        }
+        }
+    .burgersHeader {
+        background-position: $centrado;
+        height: 400px;
+        padding-top: 30px;
+            .divBurgersHeader {
+                .h2BurgersHeader {
+                    font-size: 2.5rem;
+                }
+            }
+    }
+    }
+}

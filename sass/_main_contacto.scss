@@ -1,0 +1,50 @@
+section {
+    .h2Contacto {
+        font-size: 2.2rem;
+        font-family: $font-primaria;
+        letter-spacing: 0.1em;
+    }
+    .pContacto {
+        text-align: $centrado;
+        color: $color-negro;
+        font-size: 1rem;
+        padding-top: 60px;
+    }
+    .formWidth {
+        width: $ancho/2;
+        .sizeMsg {
+            height: 200px;
+        }
+    }
+    .btnContacto {
+        background-color: #edb026;
+        border-color: #edb026;
+        font-size: 1.875rem;
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: $font-primaria;
+        letter-spacing: 0.1em;
+        &:hover {
+            background-color: #211f1b;
+            border-color: #211f1b;
+            opacity: 0.9;
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    section {
+        .formWidth {
+            width: $ancho;
+        }
+        .h2Contacto {
+            font-size: 1.5rem;
+        }
+        .pContacto {
+            font-size: 1rem;
+            padding-top: 40px;
+        }
+    }
+}

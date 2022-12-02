@@ -1,0 +1,177 @@
+footer {
+    background-color: $color-negro;
+    color: $color-blanco;
+    padding-top: 5px;
+    width: $ancho;
+    .footerBack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 40px;
+        text-align: $centrado;
+        .boxFooter {
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+            .h2Footer {
+                letter-spacing: 0.1em;
+                font-family: $font-primaria;
+                border: 3px solid #7a7a7a
+            }
+        .dirFooter {
+            font-size: 1.563rem;
+            font-family: $font-primaria;
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 8px;
+            text-decoration-color: #7a7a7a;
+            letter-spacing: 0.1em;
+            }
+        .horariosFooter1 {
+            font-size: 1.25rem;
+            padding-top: 25px;
+            font-family: $font-primaria;
+            letter-spacing: 0.1em;
+            }
+        .horariosFooter {
+            font-size: 1.25rem;
+            font-family: $font-primaria;
+            letter-spacing: 0.1em;
+            }
+        }
+        h2 {
+            margin-bottom: 40px;
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+        .fab {
+            color: $color-blanco;
+            font-size: 1.563rem;
+            display: inline;
+        }
+    .boxFooterLogo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        .iconsPossFooter {
+            display: flex;
+            justify-content: space-between;
+            i {
+                font-size: 1.625rem;
+                padding-top: 40px;
+            }
+        }
+        .fa-facebook {
+            color: #4267B2;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+        .fa-instagram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%); 
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%);
+            color: transparent; 
+            -webkit-background-clip: text;
+            background-clip: text;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+        .ig-color {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .fa-whatsapp {
+            color: #25D366;
+            &:hover {
+                opacity: 0.5;
+             }
+        }
+        }
+    }
+    .copyrightFooter {
+        max-width: 1200px;
+        margin: auto;
+        text-align: $centrado;
+        hr {
+            border: none;
+        }
+    p {
+        margin-top: 15px;
+        color: $color-blanco;
+        font-size: 1.25rem;
+        }
+    .copyrightP {
+        color: #7a7a7a;
+        font-size: 1rem;
+        margin-top: 30px;
+        margin-bottom: 0;
+        }
+    .copyrightLink {
+        font-size: 1.125rem;
+        color: #8a8a8a;
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    footer {
+        height: 690px;
+        .footerBack {
+            flex-direction: column;
+            margin-top: 5px;
+            .boxFooter {
+                padding-top: 10px;
+                h2 {
+                    font-size: 1.875rem;
+                    margin-bottom: 20px;
+                }
+                .dirFooter {
+                    font-size: 1rem;
+                }
+                .horariosFooter1 {
+                    font-size: 0.625rem;
+                    padding-top: 0;
+                }
+                .horariosFooter {
+                    font-size: 0.625rem;
+                    padding-top: 0;
+                }
+            }
+        .boxFooterLogo {
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            .logoFooter {
+                padding-top: 0px;
+            }
+            .iconsPossFooter {
+                padding: 0;
+                justify-content: $centrado;
+                i {
+                    padding-top: 35px;
+                    font-size: 1rem;
+                }
+                .ig-color {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+            }
+        }
+    .copyrightFooter {
+        p {
+            margin-top: 0;
+        }
+        .copyrightP {
+            margin-top: 0;
+        }
+        .copyrightLink {
+            font-size: 1.125rem;
+        }
+    }
+    }
+}
