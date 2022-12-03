@@ -12,11 +12,12 @@ main {
             p {
                 font-size: 25px;
                 color: $color-negro;
-                padding: 50px;
+                padding: 70px;
                 font-family: $font-secundaria;
             }
             .emSize {
                 font-size: 1.125rem;
+                font-style: italic;
             }
         }
     }
@@ -41,11 +42,18 @@ main {
                     padding: 0;
                     h3 {
                         font-size: 5.5rem;
+                        line-height: 0.1em;
                         font-weight: 700;
                         padding-bottom: 10px;
                     }
                     p {
+                        font-size: 1rem;
+                        font-style: italic;
+                        font-weight: 500;
                         padding: 30px;
+                    }
+                    .emSize {
+                        font-size: 14px;
                     }
                 }
         }

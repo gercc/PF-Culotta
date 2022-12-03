@@ -23,8 +23,8 @@ main {
         }
     }
     .starterBs {
-        background-color: map-get($starter , color);
-        h4{
+        background-color: map-get($starter , $color-starter);
+        h2{
             font-size: map-get($starter , font-size);
             font-family: $font-primaria;
             letter-spacing: map-get($starter , letter-spacing);

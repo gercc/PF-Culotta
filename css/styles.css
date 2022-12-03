@@ -100,13 +100,15 @@ a:visited {
 /* HEADER INDEX MOBILE*/
 @media screen and (max-width: 767px) {
   .headerIndex {
-    height: 500px; }
+    height: initial; }
     .headerIndex .bannerHeader {
       padding-top: 70px; }
       .headerIndex .bannerHeader .hrHeader {
         width: 15%; }
-      .headerIndex .bannerHeader .h2Header .h1Animate {
-        font-size: 0.75rem; }
+      .headerIndex .bannerHeader .h2Header {
+        padding-bottom: 40px; }
+        .headerIndex .bannerHeader .h2Header .h1Animate {
+          font-size: 0.75rem; }
   .divHeader {
     padding: 0;
     padding-top: 20px;
@@ -118,32 +120,33 @@ a:visited {
 /* HEADER NOSOTROS MOBILE*/
 @media screen and (max-width: 767px) {
   .headerNosotros {
-    height: 500px; }
+    height: initial; }
   .tituloHeader {
     font-size: 1.875rem;
     padding: 0;
-    padding-top: 170px; } }
+    padding-top: 100px;
+    padding-bottom: 30%; } }
 
 /* HEADER LOCALES MOBILE*/
 @media screen and (max-width: 767px) {
   .headerLocales {
-    height: 500px; } }
+    height: initial; } }
 
 /* HEADER MENU MOBILE*/
 @media screen and (max-width: 767px) {
   .headerMenu {
-    height: 500px; } }
+    height: initial; } }
 
 /* HEADER FRANQUICIAS MOBILE*/
 @media screen and (max-width: 767px) {
   .headerFranquicias {
-    height: 500px;
+    height: initial;
     background-position: center; } }
 
 /* HEADER CONTACTO MOBILE*/
 @media screen and (max-width: 767px) {
   .headerContacto {
-    height: 500px; } }
+    height: initial; } }
 
 main .locales {
   height: 20.375rem;
@@ -322,10 +325,11 @@ main .sectionHistoria {
   main .sectionHistoria .divHistoria p {
     font-size: 25px;
     color: black;
-    padding: 50px;
+    padding: 70px;
     font-family: "Montserrat", sans-serif; }
   main .sectionHistoria .divHistoria .emSize {
-    font-size: 1.125rem; }
+    font-size: 1.125rem;
+    font-style: italic; }
 
 main .sectionVideo {
   text-align: center;
@@ -343,10 +347,16 @@ main .sectionVideo {
       padding: 0; }
       main .sectionHistoria .divHistoria h3 {
         font-size: 5.5rem;
+        line-height: 0.1em;
         font-weight: 700;
         padding-bottom: 10px; }
       main .sectionHistoria .divHistoria p {
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 500;
         padding: 30px; }
+      main .sectionHistoria .divHistoria .emSize {
+        font-size: 14px; }
   main .sectionVideo {
     padding-top: 60px;
     padding-bottom: 30px; }
@@ -450,13 +460,11 @@ main section .info .descripcion {
   font-size: 0.875rem;
   padding-top: 15px; }
 
-main section .starterBs {
-  background-color: #edb026; }
-  main section .starterBs h4 {
-    font-size: 3.125rem;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 0.1em;
-    text-align: center; }
+main section .starterBs h2 {
+  font-size: 3.125rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center; }
 
 main section .w-100 {
   border-radius: 15px; }
@@ -464,17 +472,17 @@ main section .w-100 {
 main section .sizeVentajas {
   margin-top: 100px;
   margin-bottom: 100px; }
-  main section .sizeVentajas .h4-color {
+  main section .sizeVentajas .h2-color {
     font-family: "Lato", sans-serif;
     text-align: left;
     color: #211f1b;
     background-color: white;
     font-size: 45px;
     letter-spacing: 0; }
-    main section .sizeVentajas .h4-color .franqSpan {
+    main section .sizeVentajas .h2-color .franqSpan {
       font-size: 45px;
       color: #edb026; }
-      main section .sizeVentajas .h4-color .franqSpan:hover {
+      main section .sizeVentajas .h2-color .franqSpan:hover {
         color: #edb026; }
   main section .sizeVentajas .franquiciasSizeP {
     font-family: "Montserrat", sans-serif;
@@ -493,7 +501,7 @@ main section .sizeUl {
 
 main section .starterBs {
   background-color: #edb026; }
-  main section .starterBs h4 {
+  main section .starterBs h2 {
     font-size: 3.125rem;
     font-family: "Lato", sans-serif;
     letter-spacing: 0.1em;

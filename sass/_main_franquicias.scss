@@ -3,7 +3,7 @@ main {
         .sizeVentajas {
             margin-top: 100px;
             margin-bottom: 100px;
-            .h4-color {
+            .h2-color {
                 @include font-textcenter(left);
                 color: #211f1b;
                 background-color: $color-blanco;
@@ -11,9 +11,9 @@ main {
                 letter-spacing: 0;
                 .franqSpan {
                     font-size: 45px;
-                    color: #edb026;
+                    color: $color-starter;
                     &:hover {
-                        color: #edb026;
+                        color: $color-starter;
                     }
                 }
             }
@@ -33,8 +33,8 @@ main {
             }
         }
         .starterBs {
-            background-color: #edb026;
-            h4{
+            background-color: $color-starter;
+            h2{
                 font-size: 3.125rem;
                 font-family: $font-primaria;
                 letter-spacing: 0.1em;
@@ -50,7 +50,7 @@ main {
             font-family: $font-secundaria;
             font-weight: 600;
             &:not(.collapsed) {
-                color: #edb026;
+                color: $color-starter;
                 background-color: rgb(33, 31, 27);
             }
             &:focus {

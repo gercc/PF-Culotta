@@ -1,9 +1,9 @@
-$color-blanco: white;
-$color-negro: black;
-$centrado: center;
 $font-primaria: 'Lato' , sans-serif;
 $font-secundaria: 'Montserrat', sans-serif;
-$height-mobile: 500px;
+$color-blanco: white;
+$color-negro: black;
+$color-starter: #edb026;
+$centrado: center;
 $ancho: 100%;
 
 
@@ -11,7 +11,7 @@ $ancho: 100%;
 
 $starter:(
     font-size: 3.125rem,
-    color: #edb026,
+    color: $color-starter,
     font-family: 'Montserrat' sans-serif,
     letter-spacing: 0.1em,
     text-align: center,

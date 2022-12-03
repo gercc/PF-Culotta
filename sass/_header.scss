@@ -111,13 +111,14 @@
 
 @media screen and (max-width: 767px) {
     .headerIndex {
-        height: $height-mobile;
+        height: initial;
         .bannerHeader {
             padding-top: 70px;
             .hrHeader {
                 width: 15%;
             }
         .h2Header {
+            padding-bottom: 40px;
             .h1Animate {
                 font-size: 0.75rem;
             }
@@ -141,12 +142,13 @@
 
 @media screen and (max-width: 767px) {
     .headerNosotros {
-        height: $height-mobile;
+        height: initial;
     }
     .tituloHeader {
         font-size: 1.875rem;
         padding: 0;
-        padding-top: 170px;
+        padding-top: 100px;
+        padding-bottom: 30%;
     }
 }
 
@@ -154,7 +156,7 @@
 
 @media screen and (max-width: 767px) {
     .headerLocales {
-        height: $height-mobile;
+        height: initial;
     }
 }
 
@@ -162,7 +164,7 @@
 
 @media screen and (max-width: 767px) {
     .headerMenu {
-        height: $height-mobile;
+        height: initial;
     }
 }
 
@@ -170,7 +172,7 @@
 
 @media screen and (max-width: 767px) {
     .headerFranquicias {
-        height: $height-mobile;
+        height: initial;
         background-position: $centrado;
     }
 }
@@ -179,6 +181,6 @@
 
 @media screen and (max-width: 767px) {
     .headerContacto {
-        height: $height-mobile;
+        height: initial;
     }
 }
