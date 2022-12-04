@@ -32,6 +32,8 @@ main {
 }
 
 
+/* MQ */
+
 @media screen and (max-width: 767px) {
     main {
         .sectionHistoria {
@@ -41,10 +43,10 @@ main {
                 .divHistoria {
                     padding: 0;
                     h3 {
-                        font-size: 5.5rem;
+                        font-size: 3.5rem;
                         line-height: 0.1em;
                         font-weight: 700;
-                        padding-bottom: 10px;
+                        padding-bottom: 40px;
                     }
                     p {
                         font-size: 1rem;
