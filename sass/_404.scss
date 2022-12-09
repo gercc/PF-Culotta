@@ -1,0 +1,38 @@
+.body404 {
+    background-color: #e0e0e0;
+    font-family: $font-primaria;
+    .h1404 {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .logo404 {
+        width: 450px;
+        height: 450px;
+    }
+    
+    .h2404 {
+        margin-top: 130px;
+        margin-bottom: 70px;
+        font-size: 27px;
+        font-weight: 400;
+    }
+}
+
+/* MQ */
+
+@media screen and (max-width: 767px) {
+    .body404 {
+        .h1404 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .logo404 {
+            width: 250px;
+            height: 250px;
+        }
+        .h2404 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}

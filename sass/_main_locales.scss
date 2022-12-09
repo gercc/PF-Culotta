@@ -1,96 +1,48 @@
-main {
-    .sectionLocales {
-        display: flex;
-        justify-content: $centrado;
-        h2 {
+    .divLocales {
+        font-family: $font-primaria;
+        border: 3px solid $color-negro ;
+        background-color: #e0e0e0;
+        border-radius: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .h2Locales {
             font-size: 3.75rem;
-            font-family: $font-primaria;
             font-weight: 700;
             letter-spacing: 0.1em;
             text-decoration-line: underline;
             text-decoration-thickness: 4px;
             text-underline-offset: 10px;
             text-decoration-color: $color-negro;
-            padding-bottom: 20px;
         }
-        .divLocales {
-            text-align: $centrado;
-            margin: 150px;
-            min-width: 600px;
-            border: map-get($borders , border-solid-trespx);
-            background-color: #e0e0e0;
-            border-radius: 20px;
+        .direccionLocales {
+            font-size: 1.875rem;
+            letter-spacing: 0.1em;
             padding-top: 50px;
-            padding-bottom: 50px;
-            padding-left: 40px;
-            padding-right: 40px;
-            .direccionLocales {
-                color: $color-negro;
-                font-size: 1.875rem;
-                font-family: $font-primaria;
-                letter-spacing: 0.1em;
-                padding-top: 50px;
-            }
-            .horarioLocales { 
-                color: $color-negro;
-                font-family: $font-primaria;
-                padding-top: 30px;
-                letter-spacing: 0.1em;
-                text-align: $centrado;
-            }
-            .horarioLocales1 {
-                color: $color-negro;
-                font-family: $font-primaria;
-                padding-top: 30px;
-                letter-spacing: 0.1em;
-                text-align: $centrado;
-                padding-bottom: 50px;
-            }
         }
-    }
+        .horarioLocales { 
+            letter-spacing: 0.1em;
+            padding-top: 30px;
+        }
+        .horarioLocales1 {
+            letter-spacing: 0.1em;
+            padding-bottom: 50px;
+        }
 }
 
 
 /* MQ */
 
 @media screen and (max-width: 767px) {
-    main {
-        .sectionLocales {
-            display: flex;
-            flex-direction: column;
-            h2 {
-                font-size: 2.5rem;
-                font-family: $font-primaria;
-                padding-bottom: 10px;
-            }
-        .divLocales {
-            border-radius: 0px;
-            min-width: 380px;
-            margin: 0px;
-            .direccionLocales {
-                color: $color-negro;
-                font-size: 1.3rem;
-                padding-top: 20px;
-            }
-            .horarioLocales { 
-                color: $color-negro;
-                font-family: $font-primaria;
-                padding-top: 10px;
-                text-align: $centrado;
-            }
-            .horarioLocales1 {
-                color: $color-negro;
-                font-family: $font-primaria;
-                padding-top: 10px;
-                letter-spacing: 0.1em;
-                text-align: $centrado;
-                padding-bottom: 50px;
-            }
-            }
-        }
+    .h2Locales {
+        font-size: 3.125rem;
     }
-    
-    .iframeLocal {
+    .direccionLocales {
+        font-size: 1.5rem;
+    }
+    .horarioLocales { 
+        padding-top: 20px;
+    }
+    iframe {
         width: 320px;
         height: 300px;
     }

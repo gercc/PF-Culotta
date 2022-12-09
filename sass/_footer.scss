@@ -1,179 +1,100 @@
-footer {
-    background-color: $color-negro;
-    color: $color-blanco;
-    padding-top: 5px;
-    width: $ancho;
-    .footerBack {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: auto;
-        margin-top: 40px;
-        text-align: $centrado;
-        .boxFooter {
-            display: flex;
-            flex-direction: column;
-            padding-top: 40px;
-            .h2Footer {
-                letter-spacing: 0.1em;
-                font-family: $font-primaria;
-                border: 3px solid #7a7a7a
-            }
-        .dirFooter {
-            font-size: 1.563rem;
-            font-family: $font-primaria;
-            text-decoration-line: underline;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 8px;
-            text-decoration-color: #7a7a7a;
-            letter-spacing: 0.1em;
-            }
-        .horariosFooter1 {
-            font-size: 1.25rem;
-            padding-top: 25px;
-            font-family: $font-primaria;
-            letter-spacing: 0.1em;
-            }
-        .horariosFooter {
-            font-size: 1.25rem;
-            font-family: $font-primaria;
-            letter-spacing: 0.1em;
-            }
-        }
-        h2 {
-            margin-bottom: 40px;
-            font-weight: 700;
-            font-size: 2.5rem;
-        }
-        .fab {
-            color: $color-blanco;
-            font-size: 1.563rem;
-            display: inline;
-        }
-    .boxFooterLogo {
-        display: flex;
-        flex-direction: column;
-        padding-top: 40px;
-        .iconsPossFooter {
-            display: flex;
-            justify-content: space-between;
-            i {
-                font-size: 1.625rem;
-                padding-top: 40px;
-            }
-        }
-        .fa-facebook {
-            color: #4267B2;
-            &:hover {
-                opacity: 0.6;
-            }
-        }
-        .fa-instagram {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%); 
-            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 3%, #fd5949 25%, #d6249f 30%, #285AEB 40%);
-            color: transparent; 
-            -webkit-background-clip: text;
-            background-clip: text;
-            &:hover {
-                opacity: 0.6;
-            }
-        }
-        .ig-color {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        .fa-whatsapp {
-            color: #25D366;
-            &:hover {
-                opacity: 0.5;
-             }
-        }
+.footerBg {
+    font-family: $font-primaria;
+    background-color: #211f1b;
+    .h2Footer {
+        letter-spacing: 0.1em;
+        border: 3px solid #7a7a7a;
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 2.5rem
+    }
+    .dirFooter {
+        font-size: 1.563rem;
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 8px;
+        text-decoration-color: #7a7a7a;
+        letter-spacing: 0.1em;
+    }
+    .horariosFooter1 {
+        font-size: 1.25rem;
+        padding-top: 25px;
+        letter-spacing: 0.1em;
+    }
+    .horariosFooter {
+        font-size: 1.25rem;
+        letter-spacing: 0.1em;
+        padding-top: 10px;
+    }
+    .logoFooter {
+        margin-top: 60px;
+    }
+    i {
+        font-size: 1.625rem;
+        padding: 20px;
+        padding-top: 0;
+    }
+    .fa-facebook {
+        color: #4267B2;
+        &:hover {
+            opacity: 0.6;
         }
     }
-    .copyrightFooter {
-        max-width: 1200px;
-        margin: auto;
-        text-align: $centrado;
-        hr {
-            border: none;
+    .fa-instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 3%, #fdf497 35%, #fd5949 55%, #d6249f 65%, #285AEB 80%); 
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 3%, #fdf497 35%, #fd5949 55%, #d6249f 65%, #285AEB 80%);
+        color: transparent; 
+        -webkit-background-clip: text;
+        background-clip: text;
+        &:hover {
+            opacity: 0.6;
         }
-    p {
-        margin-top: 15px;
-        color: $color-blanco;
-        font-size: 1.25rem;
+    }
+    .fa-whatsapp {
+        color: #25D366;
+        &:hover {
+            opacity: 0.6;
         }
+    }
     .copyrightP {
         color: #7a7a7a;
         font-size: 1rem;
         margin-top: 30px;
         margin-bottom: 0;
-        }
+    }
+    
     .copyrightLink {
         font-size: 1.125rem;
         color: #8a8a8a;
-        }
     }
 }
 
 
-/* MQ */
+/* MQ FOOTER */
 
 @media screen and (max-width: 767px) {
-    footer {
-        height: 690px;
-        .footerBack {
-            flex-direction: column;
-            margin-top: 5px;
-            .boxFooter {
-                padding-top: 10px;
-                h2 {
-                    font-size: 1.875rem;
-                    margin-bottom: 20px;
-                }
-                .dirFooter {
-                    font-size: 1rem;
-                }
-                .horariosFooter1 {
-                    font-size: 0.625rem;
-                    padding-top: 0;
-                }
-                .horariosFooter {
-                    font-size: 0.625rem;
-                    padding-top: 0;
-                }
-            }
-        .boxFooterLogo {
-            display: flex;
-            flex-direction: column;
-            padding-top: 10px;
-            .logoFooter {
-                padding-top: 0px;
-            }
-            .iconsPossFooter {
-                padding: 0;
-                justify-content: $centrado;
-                i {
-                    padding-top: 35px;
-                    font-size: 1rem;
-                }
-                .ig-color {
-                    padding-left: 20px;
-                    padding-right: 20px;
-                }
-            }
-            }
+    .footerBg {
+        height: 902px;
+        .h2Footer {
+            font-size: 1.9rem;
+            margin-bottom: 40px;
         }
-    .copyrightFooter {
-        p {
-            margin-top: 0;
+        .dirFooter {
+            font-size: 1.4rem;
+        }
+        .horariosFooter1 {
+            font-size: 1rem;
+            padding-top: 0;
+        }
+        .horariosFooter {
+            font-size: 1rem;
+            padding-top: 0;
+        }
+        .logoFooter {
+            margin-top: 20px;
         }
         .copyrightP {
             margin-top: 0;
         }
-        .copyrightLink {
-            font-size: 1.125rem;
-        }
-    }
     }
 }
