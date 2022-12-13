@@ -268,11 +268,11 @@ main .divAcerca {
     main .divAcerca .divHr .hrAcerca {
       border-top: 3px solid black; }
   main .divAcerca .pAcerca {
+    font-size: 20px;
     color: black;
     width: 100%;
-    font: inherit;
     font-family: "Lato", sans-serif;
-    font-weight: 700; }
+    font-weight: 400; }
 
 main .burgersHeader {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/nuestras-burgers.png);
@@ -294,7 +294,7 @@ main .burgersHeader {
         text-decoration-line: underline;
         text-decoration-thickness: 2px;
         text-underline-offset: 8px;
-        opacity: 0.9; }
+        opacity: 0.7; }
 
 /* MQ */
 @media screen and (max-width: 767px) {
@@ -308,6 +308,8 @@ main .burgersHeader {
     main .divAcerca .divHr {
       color: black;
       padding: 10px; }
+    main .divAcerca .pAcerca {
+      font-size: 16px; }
   main .burgersHeader {
     background-position: center;
     height: 400px;
@@ -326,15 +328,17 @@ main .sectionHistoria {
   main .sectionHistoria .divHistoria p {
     font-size: 25px;
     color: black;
-    padding: 70px;
-    font-family: "Montserrat", sans-serif; }
+    padding: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300; }
   main .sectionHistoria .divHistoria .emSize {
-    font-size: 1.125rem;
-    font-style: italic; }
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500; }
 
 main .sectionVideo {
   text-align: center;
-  padding-bottom: 200px; }
+  padding-bottom: 150px; }
   main .sectionVideo .video {
     border: 4px solid #636363;
     border-radius: 5px; }
@@ -355,13 +359,13 @@ main .sectionVideo {
       main .sectionHistoria .divHistoria p {
         font-size: 1rem;
         font-style: italic;
-        font-weight: 500;
-        padding: 30px; }
+        font-weight: 300;
+        padding: 20px; }
       main .sectionHistoria .divHistoria .emSize {
         font-size: 14px; }
   main .sectionVideo {
     padding-top: 60px;
-    padding-bottom: 30px; }
+    padding-bottom: 60px; }
   main .video {
     width: 400px;
     height: 400px; } }
@@ -604,7 +608,7 @@ section .formWidth {
     margin-top: 30px;
     margin-bottom: 0; }
   .footerBg .copyrightLink {
-    font-size: 1.125rem;
+    font-size: 1.07rem;
     color: #8a8a8a; }
 
 /* MQ FOOTER */
@@ -641,10 +645,13 @@ section .formWidth {
     margin-bottom: 70px;
     font-size: 27px;
     font-weight: 400; }
+  .body404 .divBtn404 {
+    margin-top: 20px; }
 
 /* MQ */
 @media screen and (max-width: 767px) {
   .body404 .h1404 {
+    font-size: 45px;
     text-align: center;
     margin-bottom: 50px; }
   .body404 .logo404 {
@@ -652,4 +659,6 @@ section .formWidth {
     height: 250px; }
   .body404 .h2404 {
     margin-top: 20px;
-    margin-bottom: 10px; } }
+    margin-bottom: 20px; }
+  .body404 .divBtn404 {
+    margin-top: 20px; } }

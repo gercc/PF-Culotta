@@ -146,11 +146,11 @@ main {
         }
 }
 .pAcerca {
+    font-size: 20px;
     color: $color-negro;
     width: $ancho;
-    font: inherit;
     font-family: $font-primaria;
-    font-weight: 700;
+    font-weight: 400;
 }
 }
 .burgersHeader {
@@ -173,7 +173,7 @@ main {
                     text-decoration-line: underline;
                     text-decoration-thickness: 2px;
                     text-underline-offset: 8px;
-                    opacity: 0.9;
+                    opacity: 0.7;
                 }
             }
         }
@@ -196,6 +196,9 @@ main {
         .divHr {
             color: $color-negro;
             padding: 10px;
+        }
+        .pAcerca {
+            font-size: 16px;
         }
         }
     .burgersHeader {

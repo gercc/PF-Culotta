@@ -16,6 +16,9 @@
         font-size: 27px;
         font-weight: 400;
     }
+    .divBtn404 {
+            margin-top: 20px;
+    }
 }
 
 /* MQ */
@@ -23,6 +26,7 @@
 @media screen and (max-width: 767px) {
     .body404 {
         .h1404 {
+            font-size: 45px;
             text-align: center;
             margin-bottom: 50px;
         }
@@ -32,7 +36,10 @@
         }
         .h2404 {
             margin-top: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
+        .divBtn404 {
+            margin-top: 20px;
+    }
     }
 }
