@@ -268,7 +268,7 @@ main .divAcerca {
     main .divAcerca .divHr .hrAcerca {
       border-top: 3px solid black; }
   main .divAcerca .pAcerca {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: black;
     width: 100%;
     font-family: "Lato", sans-serif;
@@ -309,7 +309,7 @@ main .burgersHeader {
       color: black;
       padding: 10px; }
     main .divAcerca .pAcerca {
-      font-size: 16px; }
+      font-size: 1rem; }
   main .burgersHeader {
     background-position: center;
     height: 400px;
@@ -326,13 +326,13 @@ main .sectionHistoria {
     padding-bottom: 60px;
     font-family: 'Amatic SC', cursive; }
   main .sectionHistoria .divHistoria p {
-    font-size: 25px;
+    font-size: 1.563rem;
     color: black;
     padding: 35px;
     font-family: "Montserrat", sans-serif;
     font-weight: 300; }
   main .sectionHistoria .divHistoria .emSize {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: italic;
     font-weight: 500; }
 
@@ -362,7 +362,7 @@ main .sectionVideo {
         font-weight: 300;
         padding: 20px; }
       main .sectionHistoria .divHistoria .emSize {
-        font-size: 14px; }
+        font-size: 0.875rem; }
   main .sectionVideo {
     padding-top: 60px;
     padding-bottom: 60px; }
@@ -376,7 +376,8 @@ main .sectionVideo {
   background-color: #e0e0e0;
   border-radius: 20px;
   padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
   .divLocales .h2Locales {
     font-size: 3.75rem;
     font-weight: 700;
@@ -390,21 +391,25 @@ main .sectionVideo {
     letter-spacing: 0.1em;
     padding-top: 50px; }
   .divLocales .horarioLocales {
+    font-size: 1.25rem;
+    font-weight: 400;
     letter-spacing: 0.1em;
     padding-top: 30px; }
   .divLocales .horarioLocales1 {
+    font-size: 1.25rem;
+    font-weight: 400;
     letter-spacing: 0.1em;
     padding-bottom: 50px; }
 
 /* MQ */
 @media screen and (max-width: 767px) {
-  .h2Locales {
+  .divLocales .h2Locales {
     font-size: 3.125rem; }
-  .direccionLocales {
+  .divLocales .direccionLocales {
     font-size: 1.5rem; }
-  .horarioLocales {
+  .divLocales .horarioLocales {
     padding-top: 20px; }
-  iframe {
+  .divLocales iframe {
     width: 320px;
     height: 300px; } }
 
@@ -445,10 +450,10 @@ main section .sizeVentajas {
     text-align: left;
     color: #211f1b;
     background-color: white;
-    font-size: 45px;
+    font-size: 2.813rem;
     letter-spacing: 0; }
     main section .sizeVentajas .h2-color .franqSpan {
-      font-size: 45px;
+      font-size: 2.813rem;
       color: #edb026; }
       main section .sizeVentajas .h2-color .franqSpan:hover {
         color: #edb026; }
@@ -457,7 +462,7 @@ main section .sizeVentajas {
     text-align: left;
     color: #999;
     padding-top: 30px;
-    font-size: 23px;
+    font-size: 1.438rem;
     line-height: 25px; }
 
 main section .sizeUl {
@@ -477,7 +482,7 @@ main section .starterBs {
 
 main section .sizeH2Franquicias {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 25px; }
 
 main section .accordion-button {
@@ -529,6 +534,10 @@ section .pContacto {
 
 section .formWidth {
   width: 50%; }
+  section .formWidth .formShadow {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; }
   section .formWidth .sizeMsg {
     height: 200px; }
 
@@ -635,7 +644,7 @@ section .formWidth {
   background-color: #e0e0e0;
   font-family: "Lato", sans-serif; }
   .body404 .h1404 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 700; }
   .body404 .logo404 {
     width: 450px;
@@ -643,7 +652,7 @@ section .formWidth {
   .body404 .h2404 {
     margin-top: 130px;
     margin-bottom: 70px;
-    font-size: 27px;
+    font-size: 1.688rem;
     font-weight: 400; }
   .body404 .divBtn404 {
     margin-top: 20px; }
@@ -651,7 +660,7 @@ section .formWidth {
 /* MQ */
 @media screen and (max-width: 767px) {
   .body404 .h1404 {
-    font-size: 45px;
+    font-size: 2.813rem;
     text-align: center;
     margin-bottom: 50px; }
   .body404 .logo404 {

@@ -12,6 +12,11 @@ section {
     }
     .formWidth {
         width: $ancho/2;
+        .formShadow {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;;
+        }
         .sizeMsg {
             height: 200px;
         }
@@ -19,8 +24,8 @@ section {
 }
 
 .btnContacto {
-    background-color: #edb026;
-    border-color: #edb026;
+    background-color: $color-starter;
+    border-color: $color-starter;
     font-size: 1.875rem;
     padding: 20px;
     padding-left: 30px;

@@ -10,14 +10,14 @@ main {
                 font-family: 'Amatic SC', cursive;
             }
             p {
-                font-size: 25px;
+                font-size: 1.563rem;
                 color: $color-negro;
                 padding: 35px;
                 font-family: $font-secundaria;
                 font-weight: 300;
             }
             .emSize {
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-style: italic;
                 font-weight: 500;
             }
@@ -57,7 +57,7 @@ main {
                         padding: 20px;
                     }
                     .emSize {
-                        font-size: 14px;
+                        font-size: 0.875rem;
                     }
                 }
         }

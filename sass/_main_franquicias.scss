@@ -7,10 +7,10 @@ main {
                 @include font-textcenter(left);
                 color: #211f1b;
                 background-color: $color-blanco;
-                font-size: 45px;
+                font-size: 2.813rem;
                 letter-spacing: 0;
                 .franqSpan {
-                    font-size: 45px;
+                    font-size: 2.813rem;
                     color: $color-starter;
                     &:hover {
                         color: $color-starter;
@@ -20,7 +20,7 @@ main {
             .franquiciasSizeP {
                 @include font-align-color(left,#999);
                 padding-top: 30px;
-                font-size: 23px;
+                font-size: 1.438rem;
                 line-height: 25px;
             }
         }
@@ -43,7 +43,7 @@ main {
         }
         .sizeH2Franquicias {
             font-family: $font-secundaria;
-            font-size: 16px;
+            font-size: 1rem;
             line-height: 25px;
         }
         .accordion-button {
