@@ -519,7 +519,8 @@ main section .accordion-body {
     border-radius: 50%;
     margin-top: 50px; }
   .imgFranquicias {
-    height: 100px; } }
+    height: 100px;
+    width: 120px; } }
 
 section .h2Contacto {
   font-size: 2.2rem;
